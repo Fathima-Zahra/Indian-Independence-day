@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+
+
+body {
+    font-family: 'Coming Soon', cursive;
+    margin: 30px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/mVNu3jIQr6OH_dfqRFB2537FFNODOdNFEU_nfArNDNctpd24WKRnov6a7LfUYQlxudRa2d6iSrNSvhICSLLZzo83F-SBrdwZB11qwBn6GfY6DfIP1GbwQJ8ZlNt8fcfaTzkeHLiZ9tKExoIU3b7wrqjzutU");
+    text-align: center;
+
+
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.background {
+    background-image: url("https://image.freepik.com/free-vector/indian-independence-day-celebration-background_1302-12477.jpg");
+}
+
+.para {
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+}
+
+img  {
+    width: 500px;
+    height: 250px;
+    text-align: left;
+}
+
+.image {
+    text-align: center
+}
+
+.body {
+    text-align: center;
+}
+ 
+.flag-hoisting {
+    text-align: center;
+}
+
+.celebration {
+    text-align: center;
+}
+
+
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+  
+.dropdown:hover .dropbtn {background-color: orange;}
+
+h2 {
+    position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
